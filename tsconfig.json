@@ -16,7 +16,12 @@
       "es2016",
       "dom"
     ],
-    "types": [ "firebase" ],
-    "files": ["node_modules/angularfire2/firebase3.d.ts"]
+    "types": [
+      "firebase"
+    ],
+    "files": [
+      "node_modules/angularfire2/firebase3.d.ts"
+    ],
+    "module": "es2015"
   }
 }
