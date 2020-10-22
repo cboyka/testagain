@@ -1,0 +1,19 @@
+<div class="container">
+  <h3>Write Your Petition File</h3>
+  <p>This is the first thing people will see about your petition. Get their
+  attention with a short title that focuses on the change you'd like them to support.</p>
+  <div>
+    <label>Petition Title.</label>
+    <br>
+    <input #newTitle>
+  </div>
+
+  <h3>Please describe your cause here. Be sute to include as much detail as possible!</h3>
+  <div>
+    <label>Petition Description.</label>
+    <br>
+    <textarea #newDescription></textarea>
+  </div>
+
+<button class="button-changes" (click)="submitForm(newTitle.value, newDescription.value); newTitle.value=''; newDescription.value=''">Add</button>
+</div>

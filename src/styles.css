@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background: url("/assets/img/changeBackground.png");
+}
+.nav-item {
+  margin-left: 20px;
+}
+
+.container {
+  text-align: center;
+}
+.start-petition {
+  background-color: red;
+  color: white;
+  size: 50px;
+}
+.start-petition-home-div {
+  margin-top: 50px;
+}
+.button-changes {
+  background-color: red;
+  color: white;
+  size: 100px;
+}

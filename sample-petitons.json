@@ -1,0 +1,10 @@
+{ "petitions": [{
+    "name": "test",
+    "description": "A test petition",
+    "id": "1"
+    }, {
+    "name": "Another test",
+    "description": "Another test petition",
+    "id": "2"
+      }]
+}

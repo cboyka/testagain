@@ -1,0 +1,17 @@
+<div class="browse-start">
+  <h4><a routerLink="/create" class="start-petition border border-danger rounded">Start A Petition</a></h4>
+</div>
+
+<div class="petition-list">
+  <h2>Petitions</h2>
+  <div *ngFor="let petition of petitions | async"  class="panl panel-default">
+    <div class="panel-body">
+      <h2 (click)="goToDetailPage(petition)"><em class="border-bottom petition-name">{{petition.name}}</em></h2>
+      <div *ngIf="currentRoute === '/admin'">
+        {{petition.description}}
+        <hr>
+        <app-edit-petition [selectedPetition]="petition"></app-edit-petition>
+      </div>
+    </div>
+  </div>
+</div>
